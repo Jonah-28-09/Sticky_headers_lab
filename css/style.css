@@ -1,0 +1,187 @@
+html {
+  font-size: 112.5%;
+  scroll-behavior: smooth;
+
+}
+
+body{background-color: #8a772c;}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal; line-height: 1.6;
+  color: #e8d896
+}
+
+p{
+  font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.64;
+  line-height: 1.6;
+  font-size: 20px;
+  color:#19170f;
+}
+
+h1 {font-size: 5.61rem;}
+
+h2 {font-size: 4.209rem;}
+
+h3 {font-size: 3.157rem;}
+
+a:link {
+  color:#19170f;
+background-color:#e8d896;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:visited {
+  color: #5a543c;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+color: #2c270d
+}
+
+a:active {
+  text-decoration: none;
+}
+
+hr {
+  border: 1px;
+   width:85%;
+   height: 5px;
+   background-color: black;
+  }
+
+th {
+  background-color: gray;
+}
+
+td {
+  background-color:rgb(196, 190, 190);
+}
+
+li {
+  font-family: cursive;
+  font-size: 20px;
+  color:#19170f
+}
+
+blockquote {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; color:#19170f}
+
+strong {color: #19170f; font-size: 35px;}
+
+.class_one {color: #e8d896}
+.class_two {color: #e8d896}
+
+.class_border {
+ 
+  border: 3px solid orange;
+  border-radius: 50px 10px;
+}
+
+.class_curve {
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px 10px #5e511f;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 56rem;
+  margin: 3rem auto;
+}
+
+
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.height {
+  height: 23.5rem;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  background-color: #e8d896;
+  border-radius: 10px 50px;
+  padding: 2px 20px;
+  margin: 4px;
+  transition: 0.1s
+}
+
+.button:hover {
+  background-color: #b19a3e;
+  box-shadow: 0.5rem 0.2rem 0.6rem 0.2rem #5e511f;
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+
+.email_link {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  background-color: #e8d896;
+  border-radius: 10px 50px;
+  padding: 2px 20px 15px;
+  margin: 4px;
+  transition: 0.1s
+}
+
+.email_link:hover {
+  background-color: #b19a3e;
+  box-shadow: 0.5rem 0.2rem 0.6rem 0.2rem #5e511f;
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+.title_climate {
+  border: 1px;
+  width:85%;
+  height: 5px;
+  background-color: black;
+  width: 50rem;
+  margin-bottom: 20rem;
+}
+
+.title {
+  border: 1px;
+  width:85%;
+  height: 5px;
+  background-color: black;
+  width: 50rem;
+  margin-bottom: 10rem;
+}
+
+/* these are just to check off boxes just to check a check box*/
+nav a {
+    color:#19170f;
+}
+
+nav a:hover {
+  color: #2c270d;
+}
+
+.icon {
+  color: black;
+}
+
+nav {
+	position: sticky;
+  	top: -3px;
+	padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+	opacity: 1;
+	Background-color: #554a217e;
+  text-align: center;
+}
+
+/* Arrian helped me with my code */

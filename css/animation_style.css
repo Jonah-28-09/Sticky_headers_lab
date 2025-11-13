@@ -1,0 +1,149 @@
+.rectangle {
+  height: 3rem;
+  width: 6rem;
+  margin: 2rem auto;
+  border: 2px dotted black;
+}
+
+/* This one takes 3s to transition when you hover, and 1s to transition back */
+.rect1 {
+    background-color: yellow;
+  transition: 1s;
+}
+
+.rect1:hover {
+    transform: rotate(-45deg);
+    transition: 3s;
+}
+
+/* This one transitions between background-colors.  ease-in-out an algorithm describing the transition */
+.rect2 {
+    background-color: #dddddd;
+  transition: 1s ease-in-out;
+}
+.rect2:hover {
+      background-color: #413f3f;
+    transition: 0.4s ease-in-out;
+}
+
+/* This one moves it 50 px.  The transition to hover is 1s and moves 50px in x direction.  Transition back takes 4s. */
+.rect3 {
+/*   transition: 1s ease-in-out; */
+  background-color: red;
+  transition: 4s;
+}
+.rect3:hover {
+    transform: translate(-50px,  0);
+    transition: 1s ease-in-out;
+}
+
+/* This combines transitions.  It changes the width and gives a border radius with ease-in-out algorithm.   The transition to hover is 1s and linear */
+.rect4 {
+/*   transition: 1s ease-in-out; */
+  background-color: purple;
+  transition: 1s linear;
+}
+.rect4:hover {
+    transform: translate(50px,  0);
+    width: 3rem;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+}
+
+.rect5 {
+/*   transition: 1s ease-in-out; */
+  background-color: blue;
+  transition: 0.3s linear;
+}
+.rect5:hover {
+    transform: skew(89deg, 89deg);
+    transition: 3s ease-in-out;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  background-color: aqua;
+  
+  border-radius: 10px 50px;
+  padding: 2px 20px;
+  margin: 4px;
+  transition: 0.1s
+}
+
+.button:hover {
+  background-color: rgb(111, 111, 199);
+  box-shadow: 0.8rem 0.5rem 0.6rem 0.2rem rgba(0, 0, 0, .2);
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 50rem;
+  margin: 3rem auto;
+}
+
+body {
+  background-color: rgb(66, 105, 92);
+}
+
+a:link {color:black;
+background-color:deepskyblue;
+font-weight: bold;
+text-decoration: none;}
+a:visited {color: blueviolet;
+text-decoration: none;}
+a:hover {
+text-decoration: none;
+color: red
+}
+a:active {
+  text-decoration: none;
+}
+
+.title {
+  border: 1px;
+  width:85%;
+  height: 5px;
+  background-color: black;
+  width: 50rem;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+h1 {
+  color: rgb(109, 30, 30);
+  font-size: 5.61rem;
+}
+
+
+.square {
+  height: 3rem;
+  width: 6rem;
+  margin: 2rem auto;
+  border: 2px solid black;
+}
+
+.square1 {
+  background-color: red;
+  transition: 1s;
+}
+
+.square1:hover {
+  transform: translate(50px, 0px);
+  transition: 1s
+}
+
+.box {
+  height: 5rem;
+  width: 5rem;
+  margin: 2rem auto;
+  border: 20px solid white;
+  border-radius: 25%;
+  padding: 0.1px 10px;
+}
+.box1 {
+  background-color: rgb(136, 136, 212);
+}
