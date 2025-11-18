@@ -4,6 +4,10 @@ html {
 
 }
 
+header{
+  flex: 0 0 150px
+}
+
 body{background-color: #8a772c;}
 
 h1, h2, h3, h4, h5, h6{
@@ -181,7 +185,15 @@ nav {
   padding-bottom: 0.6rem;
 	opacity: 1;
 	Background-color: #554a217e;
+
+}
+
+.flexy{
+  display: flex;
+  justify-content: flex-end;
   text-align: center;
 }
+
+
 
 /* Arrian helped me with my code */
