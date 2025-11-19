@@ -179,12 +179,22 @@ nav a:hover {
 }
 
 nav {
+  border-radius: 10px 10px;
 	position: sticky;
   	top: -3px;
 	padding-top: 0.6rem;
   padding-bottom: 0.6rem;
 	opacity: 1;
 	Background-color: #554a217e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.pics{
+  margin-left: 30px;
 
 }
 
@@ -192,7 +202,36 @@ nav {
   display: flex;
   justify-content: flex-end;
   text-align: center;
+  margin-right: 30px;
+  gap: 10px;
 }
+
+.rugby{
+  border-radius: 10px 10px;
+  height: 280px;
+}
+
+.container_flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.boxy{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  border: 5px dotted #e8d896;
+  width: 500px;
+}
+
+.mac{
+  border-radius: 10px 10px;
+  height: 450px
+}
+
+
+
+
 
 
 
