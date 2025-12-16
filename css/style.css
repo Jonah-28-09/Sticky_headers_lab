@@ -27,11 +27,31 @@ p{
   color:#19170f;
 }
 
-h1 {font-size: 5.61rem;}
+@media (min-width: 38rem) and (max-width: 87.5rem){
 
-h2 {font-size: 4.209rem;}
+  h1 {font-size: 5.61rem;}
 
-h3 {font-size: 3.157rem;}
+  h2 {font-size: 4.209rem;}
+
+  h3 {font-size: 3.157rem;}
+
+  h4 {font-size: 2.369rem;}
+}
+
+@media (min-width: 1rem) and (max-width: 38rem){
+
+  h1 {font-size: 3.815rem;}
+
+  h2 {font-size: 3.052rem;}
+
+  h3 {font-size: 2.441rem;}
+
+  h4 {font-size: 1.953rem;}
+
+}
+
+
+
 
 a:link {
   color:#19170f;
@@ -146,6 +166,7 @@ strong {color: #19170f; font-size: 35px;}
   transform: scale(0.95);
   transition: 0.2s;
 }
+
 .title_climate {
   border: 1px;
   width:85%;
