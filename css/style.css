@@ -27,30 +27,26 @@ p{
   color:#19170f;
 }
 
-@media (min-width: 38rem) and (max-width: 87.5rem){
 
-  h1 {font-size: 5.61rem;}
-
-  h2 {font-size: 4.209rem;}
-
-  h3 {font-size: 3.157rem;}
-
-  h4 {font-size: 2.369rem;}
+h1 {
+  font-size: 3.815rem;
+font-size: clamp(3.815rem, 2.4370202020202014rem + 3.626262626262627vw, 5.61rem);
 }
 
-@media (min-width: 1rem) and (max-width: 38rem){
-
-  h1 {font-size: 3.815rem;}
-
-  h2 {font-size: 3.052rem;}
-
-  h3 {font-size: 2.441rem;}
-
-  h4 {font-size: 1.953rem;}
-
+h2{
+  font-size: 3.052rem;
+font-size: clamp(3.052rem, 2.1637979797979803rem + 2.3373737373737367vw, 4.209rem);
 }
 
+h3{
+  font-size: 2.441rem;
+font-size: clamp(2.441rem, 1.891343434343434rem + 1.446464646464647vw, 3.157rem);
+}
 
+h4{
+  font-size: 1.953rem;
+font-size: clamp(1.953rem, 1.6336464646464646rem + 0.8404040404040408vw, 2.369rem);
+}
 
 
 a:link {
